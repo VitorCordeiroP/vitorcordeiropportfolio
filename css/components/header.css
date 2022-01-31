@@ -1,0 +1,25 @@
+header {
+    background-image: linear-gradient(to right, var(--dark-color), var(--header-color));
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-bottom: 4px solid #000;
+}
+
+header #logo-header {
+    width: 50px;
+}
+
+#menu .link {
+    text-decoration: none;
+    font-family: var(--menu-font);
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+}
+
+#menu .link:hover {
+    text-decoration: underline;
+}
